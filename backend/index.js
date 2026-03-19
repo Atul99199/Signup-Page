@@ -9,7 +9,7 @@ const cors = require('cors');
 require('./Models/db');
 const PORT = process.env.PORT || 8080;
 app.get('/ping',(req,res)=>{
-    res.send("POND");
+    res.send("PONG");
 })
 
 app.use(bodyparser.json());
