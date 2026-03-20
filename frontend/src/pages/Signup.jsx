@@ -30,7 +30,7 @@ const navigate =useNavigate();
       return handleError("All fields are required");
     }
     try {
-      const url = "http://localhost:8080/auth/signup";
+      const url = "https://signup-page-v2h4.vercel.app/auth/signup";
       const response = await fetch(url, {
         method: 'POST',
         headers: {
