@@ -16,10 +16,11 @@ body{
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 20vh;
 }
 
 .container{
+    
 background-color: #fff;
 padding: 32px 48px;
 border-radius: 10px;
@@ -63,3 +64,33 @@ button{
     margin: 10px 0px;
     cursor: pointer;
 }
+.todoinput{
+    padding: 10px;
+    width: 40vw;
+}
+.addbutton{
+    padding: 6px;
+   margin-left: 20px;
+   background-color: green;
+}
+.deletebutton{
+    padding: 4px;
+    margin-left: 10px;
+    background:transparent;
+    border: none;
+    font-size: 15px;
+    border: 0.5px solid gray;
+}
+
+.todotext{
+    font-size: 20px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
