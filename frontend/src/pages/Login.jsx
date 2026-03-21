@@ -15,12 +15,10 @@ const navigate =useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(name, value);
     const copyLoginInfo = { ...loginInfo };
     copyLoginInfo[name] = value;
     setLoginInfo(copyLoginInfo);
   };
-  // console.log("loginInfo.. ->", signupInfo);
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -52,7 +50,6 @@ const navigate =useNavigate();
       }else if(!success){
         handleError(message);
       }
-      console.log(result);
     } catch (err) {
       handleError(err);
     }
