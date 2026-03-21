@@ -45,7 +45,7 @@ function Home() {
   };
 
   const deleteTodo = async (id) => {
-    await fetch(`https://signup-page-v2h4.vercel.app/${id}`, {
+    await fetch(`https://signup-page-v2h4.vercel.app/todos/${id}`, {
       method: "DELETE",
     });
 
@@ -53,7 +53,7 @@ function Home() {
   };
 
   const toggleTodo = async (id) => {
-    await fetch(`https://signup-page-v2h4.vercel.app/${id}`, {
+    await fetch(`https://signup-page-v2h4.vercel.app/todos/${id}`, {
       method: "PUT",
     });
 
