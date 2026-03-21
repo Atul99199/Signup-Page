@@ -1,7 +1,6 @@
 # 🚀 Signup Page (MERN Authentication App)
 
-A full-stack authentication application built using the MERN stack.  
-It allows users to sign up, log in, and access protected routes with proper authentication handling.
+A full-stack web application built using the MERN stack that allows users to sign up, log in, and manage their personal todo list securely.
 
 ---
 
@@ -42,6 +41,11 @@ Link: https://signup-page-inky.vercel.app/login
 - JWT (JSON Web Token)
 - Joi (Validation)
 
+---
+### 🎨 UI/UX
+- Clean and responsive UI
+- Scrollable todo list (prevents layout shift)
+- Toast notifications for success/error messages
 ---
 
 ## 📂 Project Structure
