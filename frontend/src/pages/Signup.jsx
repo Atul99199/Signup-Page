@@ -16,7 +16,6 @@ const navigate =useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-
     const copySignupInfo = { ...signupInfo };
     copySignupInfo[name] = value;
     setSignupInfo(copySignupInfo);
@@ -50,6 +49,7 @@ const navigate =useNavigate();
       }else if(!success){
         handleError(message);
       }
+      console.log(result);
     } catch (err) {
       handleError(err);
     }
